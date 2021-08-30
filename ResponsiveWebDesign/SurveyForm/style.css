@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+}
+#description {
+    font-size: 18px;
+    font-style: oblique;
+}
+#survey-form {
+    background-color: blueviolet;
+    padding: 20px;
+}
+#name {
+    height: 20px;
+    width: 100%;
+}
+#email {
+    height: 20px;
+    width: 100%;
+}
+#number {
+    height: 20px;
+    width: 100%;
+}
+#dropdown {
+    height: 30px;
+    width: 100%;
+}
+#feature {
+    height: 30px;
+    width: 100%;
+}
+#survey-form div {
+    margin-top: 20px;
+}
+textarea {
+    width: 100%;
+
+}
+#submit {
+    width: 100%;
+    text-align: center;
+}
