@@ -1,0 +1,40 @@
+#title {
+    text-align: center;
+    background-color: gray;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#img-caption{
+    font-size: 14px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "first second third"
+                          "four five six";
+}
+ul {
+    grid-area: second;
+}
+.p {
+    grid-area: five;
+    padding-left: 20px;
+    font-style: oblique;
+}
+
