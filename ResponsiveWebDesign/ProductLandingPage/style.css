@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#pagg-wrap {
+    position: relative;
+}
+.logo {
+    width: 60vw;
+}
+@media (max-width: 650px) {
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+}
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 32vw;
+
+}
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    background-color: #eee;
+}
+#nav-bar {
+    align-self: end;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#email {
+    width: 60%;
+    margin-bottom: 20px;
+}
+#feature>div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.feature-content {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+#price {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    border: 1px solid black;
+}
+.content > .level {
+    width: 100%;
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    font-weight: 700;
+}
+.select {
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 0 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.content button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #E0E6E9;
+}
+.a {
+    position: relative;
+    left: 80%;
+    top: 10px;
+}
+.footer p {
+    position: relative;
+    left: 60%;
+    margin-top: 30px;
+}
